@@ -1,0 +1,45 @@
+#reg{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    margin-left: 625px;
+    width: 250px;
+}
+#container{
+    background-image: url(registration.jpg);
+    background-size: cover;
+    margin-left: 600px;
+    width: 300px;
+    color: aliceblue;
+
+}
+#FullName{
+    margin-left: 50px;
+}
+#email{
+    margin-left: 75px;
+}
+#password{
+    margin-left: 58px;
+}
+.con1{
+    margin-top: 10px;
+}
+.con2{
+    margin-top: 10px;
+}
+.con3{
+    margin-top: 10px;
+}
+.con4{
+    margin-top: 10px;
+}
+#radioButton{
+    margin-top: 10px;
+}
+#checkbox{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+}

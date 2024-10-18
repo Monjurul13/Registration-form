@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="question2.css">
+</head>
+<body>
+    <h1 id="reg">Registration form</h1> 
+    <form action="/submit-form">
+      <div id="container">
+        <div class="con1">
+            <label for="FullName">Full Name:</label>
+            <input type="text" id="FullName" placeholder="Enter your Full Name"><br>
+        </div>
+        <div class="con2">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Enter your E-mail address"><br>
+        </div>
+        <div class="con3">
+            <label for="ConfirmPass">Confirm password:</label>
+            <input type="password" id="ConfirmPass" placeholder="Confirm your password">
+        </div>
+        <div class="con4">
+            <label for="ConfirmPass">Confirm password:</label>
+            <input type="password" id="ConfirmPass" placeholder="Confirm your password">
+        </div>
+        <div id="radioButton">
+            <label type="Ganders" id="ganders">Ganders:</label>
+            <input type="radio" name="ganders" checked>Male
+            <input type="radio" name="ganders">Female
+            <input type="radio" name="ganders">Others
+        </div>
+        <div id="checkbox">
+            Interests: <input type="checkbox">Reading
+            <input type="checkbox">Writting
+            <input type="checkbox">Playing
+        </div>
+        <button>Click me!</button>
+      </div>
+    </form>  
+</body>
+</html>
